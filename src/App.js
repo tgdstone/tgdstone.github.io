@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="container">
       <div className="title">
-        <img src="/oxtalogobest.png" alt="OxTTA Logo" className="logo" />
+        <img src={`${process.env.PUBLIC_URL}/oxtalogobest.png`} alt="OxTTA Logo" className="logo" />
         <h1>The Oxford Technical Talent<br />Accelerator.</h1>
       </div>
       <h2>Oxford needs more great technology companies.</h2>
